@@ -9,13 +9,13 @@ const Navbar = () => {
                     <h1 className='font-bold text-3xl sm:text-4xl lg:text-4xl '>Joe's Food Corner</h1>
                 </div>
                 <div className='flex'>
-                {/* <div className="flex justify-center bg-gray-200 h-10 rounded-md sm:pl-2 sm:w-[400px] lg:w-[400px] items-center">
+                <div className="flex justify-center bg-gray-200 h-10 rounded-md sm:pl-2 sm:w-[400px] lg:w-[400px] items-center">
                     <input type="search" className='hidden sm:flex bg-transparent p-2 sm:w-full focus:outline-none text-black ' placeholder='search..' />
                     <FiSearch size={5} className="bg-black text-white p-[10px] h-10 rounded-md w-10 font-bold " />
-                </div> */}
-                    <div className="login">
-                        {/* <button className='bg-black text-white px-5 py-1 ml-2 h-10 w-[100px] rounded-md'>Login</button> */}
-                    </div>
+                </div>
+                <div className="login">
+                    <button className='bg-black text-white px-5 py-1 ml-2 h-10 w-[100px] rounded-md'>Login</button>
+                </div>
                 </div>
             </div>
         </>

@@ -1,16 +1,14 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import {Route, BrowserRouter, Routes} from "react-router-dom";
 import Home from "./Home";
-import FoodItem from "./components/FoodItem";
 
 const App = () => {
   return (
-    <Router>
-      <Switch>
+    <BrowserRouter>
+      <Routes>
         <Route path="/" Component={Home}/>
-        <Route path="/:category/:foodId" Component={FoodItem}/>
-      </Switch>
-    </Router>
+      </Routes>
+    </BrowserRouter>
   )
 }
 export default App

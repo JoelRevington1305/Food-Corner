@@ -75,7 +75,6 @@ const Food = () => {
               transition={{ duration: 0.1 }}
               key={food.id}
               className="border shadow-lg rounded-lg hover:scale-105 duration-500 cursor-pointer"
-              onClick={() => history.push(`/${food.category}/${food.id}`)}
             >
               <img
                 className="w-full h-[150px] md:h-[200px] object-cover rounded-t-lg"
